@@ -1,123 +1,345 @@
-<!--
-  SAYEM AHMED SHAYEED — GitHub Profile README
-  Visual system: GitAscii-inspired terminal/editorial layout
-  Accent: #F0FFF0 (Honeydew / cream white)
--->
+<svg
+  xmlns="http://www.w3.org/2000/svg"
+  width="1200"
+  height="360"
+  viewBox="0 0 1200 360"
+  role="img"
+  aria-labelledby="title desc"
+>
+  <title id="title">Sayem Ahmed Shayeed — GitHub Profile Hero</title>
 
-<p align="center">
-  <img width="100%" alt="Sayem Ahmed Shayeed header" src="https://capsule-render.vercel.app/api?type=blur&color=0:050807,50:0B120E,100:25352B&height=165&section=header&text=SAYEM%20AHMED%20SHAYEED&fontColor=F0FFF0&fontSize=36&fontAlignY=48&desc=BUILD%20%C2%B7%20LEARN%20%C2%B7%20EXPLORE%20%C2%B7%20REPEAT&descSize=13&descAlignY=72&animation=fadeIn" />
-</p>
+  <desc id="desc">
+    Retro terminal-style GitHub hero in cream white on near-black
+    with a minimal celestial motif.
+  </desc>
 
-<p align="center">
-  <img src="./assets/profile-terminal.svg" width="100%" alt="ASCII terminal profile of Sayem Ahmed Shayeed" />
-</p>
+  <defs>
+    <pattern
+      id="grid"
+      width="24"
+      height="24"
+      patternUnits="userSpaceOnUse"
+    >
+      <path
+        d="M24 0H0V24"
+        fill="none"
+        stroke="#F0FFF0"
+        stroke-opacity="0.035"
+        stroke-width="1"
+      />
+    </pattern>
+  </defs>
 
-<p align="center">
-  <img src="https://svg-banners.vercel.app/api?type=luminance&text1=I%20BUILD%20SOFTWARE%20THAT%20FEELS%20OBVIOUS.&width=1000&height=150" width="100%" alt="I build software that feels obvious" />
-</p>
-
-<!-- ========================= SELECTED WORK ========================= -->
-
-<table width="100%">
-  <tr>
-    <td width="50%" valign="top">
-      <a href="https://github.com/Sayem-Ahmed-Shayeed/SoundFlow">
-        <img src="./assets/project-soundflow.svg" width="100%" alt="SoundFlow project card" />
-      </a>
-    </td>
-    <td width="50%" valign="top">
-      <a href="https://github.com/Sayem-Ahmed-Shayeed/SadSTT">
-        <img src="./assets/project-sadstt.svg" width="100%" alt="SadSTT project card" />
-      </a>
-    </td>
-  </tr>
-</table>
-
-<p align="right"><code>EXPLORE ALL REPOSITORIES →</code> <a href="https://github.com/Sayem-Ahmed-Shayeed?tab=repositories">github.com/Sayem-Ahmed-Shayeed</a></p>
-
-<!-- ========================= GITHUB SIGNAL ========================= -->
-
-<h3><code>03 / GITHUB SIGNAL</code></h3>
-
-<p align="center">
-  <img
-    src="https://pixel-profile.vercel.app/api/github-stats?username=Sayem-Ahmed-Shayeed&background=%23050807&color=%23F0FFF0&screen_effect=true&dithering=true&include_all_commits=true"
-    width="100%"
-    alt="Sayem Ahmed Shayeed GitHub statistics"
+  <!-- Background -->
+  <rect
+    width="1200"
+    height="360"
+    fill="#050807"
   />
-</p>
 
-<p align="center">
-  <img
-    src="https://github-readme-activity-graph.vercel.app/graph?username=Sayem-Ahmed-Shayeed&bg_color=050807&color=F0FFF0&title_color=F0FFF0&line=F0FFF0&point=FFFFFF&area=true&area_color=23362C&hide_border=true&radius=8&custom_title=ACTIVITY%20SIGNAL"
-    width="100%"
-    alt="Sayem Ahmed Shayeed activity graph"
+  <!-- Outer frame -->
+  <rect
+    x="18"
+    y="18"
+    width="1164"
+    height="324"
+    rx="12"
+    fill="#050807"
+    stroke="#F0FFF0"
+    stroke-opacity=".52"
+    stroke-width="1.4"
   />
-</p>
 
-<!-- ========================= TECH STACK ========================= -->
+  <!-- Grid -->
+  <rect
+    x="30"
+    y="30"
+    width="1140"
+    height="300"
+    fill="url(#grid)"
+  />
 
-<h3><code>04 / TECH STACK</code></h3>
+  <!-- Terminal controls -->
+  <circle
+    cx="51"
+    cy="52"
+    r="5"
+    fill="#F0FFF0"
+  />
 
-<p align="center">
-  <img src="https://techstack-generator.vercel.app/python-icon.svg" alt="Python" width="72" height="72" />
-  <img src="https://techstack-generator.vercel.app/restapi-icon.svg" alt="REST API" width="72" height="72" />
-  <img src="https://techstack-generator.vercel.app/github-icon.svg" alt="GitHub" width="72" height="72" />
-</p>
+  <circle
+    cx="70"
+    cy="52"
+    r="5"
+    fill="#F0FFF0"
+    fill-opacity=".52"
+  />
 
-<table width="100%">
-  <tr>
-    <td width="25%" valign="top"><strong><code>MOBILE</code></strong><br/>Flutter<br/>Dart<br/>Android<br/>Kotlin</td>
-    <td width="25%" valign="top"><strong><code>AI / ML</code></strong><br/>Python<br/>faster-whisper<br/>Deep Learning<br/>Speech-to-Text</td>
-    <td width="25%" valign="top"><strong><code>DATA / BACKEND</code></strong><br/>SQL<br/>Supabase<br/>APIs<br/>Automation</td>
-    <td width="25%" valign="top"><strong><code>PRODUCT</code></strong><br/>UI/UX<br/>Figma<br/>Git / GitHub<br/>VS Code</td>
-  </tr>
-</table>
+  <circle
+    cx="89"
+    cy="52"
+    r="5"
+    fill="#F0FFF0"
+    fill-opacity=".22"
+  />
 
-<!-- ========================= PERSONAL SIGNAL ========================= -->
+  <!-- Terminal path -->
+  <text
+    x="119"
+    y="59"
+    font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace"
+    font-size="18"
+    fill="#F0FFF0"
+    opacity=".88"
+  >
+    sayem@github:~$ ./profile
+  </text>
 
-<table width="100%">
-  <tr>
-    <td width="70%" valign="top">
-      <a href="https://open.spotify.com/track/3hEfpBHxgieRLz4t3kLNEg">
-        <img src="./assets/now-playing.svg" width="100%" alt="About You by The 1975 — click to play on Spotify" />
-      </a>
-    </td>
-    <td width="30%" align="center" valign="middle">
-      <img src="https://github.githubassets.com/images/mona-whisper.gif" width="105" alt="GitHub Mona whisper animation" />
-      <br/><code>personal.signal</code>
-    </td>
-  </tr>
-</table>
+  <!-- Top right navigation -->
+  <text
+    x="857"
+    y="59"
+    font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace"
+    font-size="14"
+    letter-spacing="2.1"
+    fill="#F0FFF0"
+    opacity=".68"
+  >
+    BUILD  LEARN  EXPLORE  REPEAT
+  </text>
 
-<table width="100%">
-  <tr>
-    <td width="76%" valign="top">
-      <img src="./assets/human-mode.svg" width="100%" alt="Still learning. Still building. Still looking at the stars." />
-    </td>
-    <td width="24%" align="center" valign="middle">
-      <img src="https://github.githubassets.com/images/mona-loading-default.gif" width="92" alt="GitHub Mona loading animation" />
-      <br/><code>loading next idea...</code>
-    </td>
-  </tr>
-</table>
+  <line
+    x1="30"
+    y1="78"
+    x2="1170"
+    y2="78"
+    stroke="#F0FFF0"
+    stroke-opacity=".32"
+  />
 
-<!-- ========================= CONNECT ========================= -->
+  <!-- Greeting -->
+  <text
+    x="67"
+    y="122"
+    font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace"
+    font-size="17"
+    fill="#F0FFF0"
+    opacity=".74"
+  >
+    &gt;_ HELLO, I'M
+  </text>
 
-<h3><code>07 / CONNECT</code></h3>
+  <!-- Name -->
+  <text
+    x="65"
+    y="183"
+    font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace"
+    font-size="46"
+    font-weight="700"
+    letter-spacing=".7"
+    fill="#F0FFF0"
+  >
+    SAYEM AHMED SHAYEED
+  </text>
 
-<p align="center">
-  <a href="https://www.linkedin.com/in/sayem-ahmed-65aa012bb"><code>[ LINKEDIN ]</code></a>
-  &nbsp;&nbsp;·&nbsp;&nbsp;
-  <a href="https://codeforces.com/profile/op_vimdhayak"><code>[ CODEFORCES ]</code></a>
-  &nbsp;&nbsp;·&nbsp;&nbsp;
-  <a href="https://www.instagram.com/sha__weed"><code>[ INSTAGRAM ]</code></a>
-  &nbsp;&nbsp;·&nbsp;&nbsp;
-  <a href="https://github.com/Sayem-Ahmed-Shayeed"><code>[ GITHUB ]</code></a>
-</p>
+  <!-- Fields -->
+  <text
+    x="67"
+    y="218"
+    font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace"
+    font-size="17"
+    letter-spacing=".5"
+    fill="#F0FFF0"
+    opacity=".78"
+  >
+    SOFTWARE · INTERFACES · AUTOMATION · INTELLIGENCE
+  </text>
 
-<p align="center"><sub><code>Better tools. A kinder internet. A more curious me.</code></sub></p>
+  <!-- Main statement -->
+  <text
+    x="67"
+    y="263"
+    font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace"
+    font-size="25"
+    font-weight="700"
+    fill="#F0FFF0"
+  >
+    I BUILD SOFTWARE THAT FEELS OBVIOUS.
+  </text>
 
-<p align="center">
-  <img width="100%" alt="footer" src="https://capsule-render.vercel.app/api?type=blur&color=0:25352B,50:0B120E,100:050807&height=105&section=footer&fontColor=F0FFF0" />
-</p>
+  <!-- Supporting line -->
+  <text
+    x="67"
+    y="298"
+    font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace"
+    font-size="15.5"
+    fill="#F0FFF0"
+    opacity=".62"
+  >
+    Curious systems. Calm interfaces. Useful things.
+  </text>
+
+  <!-- Section divider -->
+  <line
+    x1="770"
+    y1="100"
+    x2="770"
+    y2="307"
+    stroke="#F0FFF0"
+    stroke-opacity=".18"
+  />
+
+  <!-- Signal label -->
+  <text
+    x="813"
+    y="116"
+    font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace"
+    font-size="12"
+    letter-spacing="1.2"
+    fill="#F0FFF0"
+    opacity=".42"
+  >
+    01 / SIGNAL
+  </text>
+
+  <!-- Quote -->
+  <text
+    x="813"
+    y="149"
+    font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace"
+    font-size="16"
+    fill="#F0FFF0"
+    opacity=".92"
+  >
+    “SAME HUMAN,
+  </text>
+
+  <text
+    x="813"
+    y="173"
+    font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace"
+    font-size="16"
+    fill="#F0FFF0"
+    opacity=".92"
+  >
+     BIGGER HORIZONS.”
+  </text>
+
+  <!-- Moon -->
+  <circle
+    cx="1045"
+    cy="145"
+    r="38"
+    fill="none"
+    stroke="#F0FFF0"
+    stroke-opacity=".34"
+  />
+
+  <circle
+    cx="1033"
+    cy="136"
+    r="4.5"
+    fill="#F0FFF0"
+    opacity=".25"
+  />
+
+  <circle
+    cx="1054"
+    cy="154"
+    r="6"
+    fill="#F0FFF0"
+    opacity=".14"
+  />
+
+  <circle
+    cx="1046"
+    cy="127"
+    r="2.8"
+    fill="#F0FFF0"
+    opacity=".22"
+  />
+
+  <!-- Stars -->
+  <g
+    fill="#F0FFF0"
+    opacity=".82"
+  >
+    <circle cx="824" cy="204" r="1.8" />
+    <circle cx="865" cy="191" r="1.1" />
+    <circle cx="1115" cy="189" r="1.4" />
+    <circle cx="1094" cy="221" r="1.2" />
+    <circle cx="1140" cy="161" r="1.4" />
+  </g>
+
+  <!-- Mountain -->
+  <path
+    d="
+      M827 286
+      L891 229
+      L925 255
+      L970 200
+      L1051 286
+    "
+    fill="none"
+    stroke="#F0FFF0"
+    stroke-opacity=".78"
+    stroke-width="2"
+  />
+
+  <!-- Horizon -->
+  <path
+    d="M815 286 H1088"
+    stroke="#F0FFF0"
+    stroke-opacity=".28"
+  />
+
+  <!-- Water reflections -->
+  <path
+    d="
+      M861 299 H1041
+      M888 309 H1014
+    "
+    stroke="#F0FFF0"
+    stroke-opacity=".18"
+  />
+
+  <!-- Status -->
+  <text
+    x="67"
+    y="324"
+    font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace"
+    font-size="13.5"
+    fill="#F0FFF0"
+    opacity=".52"
+  >
+    status: building / learning / looking at the stars
+  </text>
+
+  <!-- Cursor -->
+  <rect
+    x="514"
+    y="312"
+    width="8"
+    height="15"
+    fill="#F0FFF0"
+  >
+    <animate
+      attributeName="opacity"
+      values="1;0;1"
+      dur="1.2s"
+      repeatCount="indefinite"
+    />
+  </rect>
+
+  <!-- Version -->
+  <text
+    x="1012"
+    y="322"
+    font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace"
+    font-size="11.5"
+    fill="#F0FFF0"
+    opacity=".34"
+  >
+    v1.1 / HERO
+  </text>
+</svg>
