@@ -1,0 +1,5 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="760" height="180" viewBox="0 0 760 180">
+<rect width="760" height="180" rx="12" fill="#050807"/><rect x="1" y="1" width="758" height="178" rx="11" fill="none" stroke="#F0FFF0" stroke-opacity=".5"/>
+<text x="30" y="37" class="label">06 / HUMAN MODE</text><text x="35" y="86" class="quote">Still learning.</text><text x="35" y="113" class="quote">Still building.</text><text x="35" y="140" class="quote">Still looking at the stars.</text>
+<text x="720" y="145" class="moon" text-anchor="end">☾ · · ✦</text>
+<style>.label{font:700 12px ui-monospace,monospace;fill:#F0FFF0;letter-spacing:1.5px}.quote{font:18px ui-monospace,monospace;fill:#F0FFF0}.moon{font:26px ui-monospace,monospace;fill:#9fb0a5}</style></svg>

@@ -1,0 +1,35 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="560" viewBox="0 0 1200 560">
+<defs>
+  <pattern id="grid" width="16" height="16" patternUnits="userSpaceOnUse"><path d="M16 0H0V16" fill="none" stroke="#24312a" stroke-width="0.6" opacity="0.35"/></pattern>
+  <linearGradient id="fade" x1="0" x2="1"><stop offset="0" stop-color="#050807"/><stop offset="1" stop-color="#09100d"/></linearGradient>
+</defs>
+<rect width="1200" height="560" rx="14" fill="url(#fade)"/>
+<rect width="1200" height="560" rx="14" fill="url(#grid)"/>
+<rect x="1" y="1" width="1198" height="558" rx="13" fill="none" stroke="#F0FFF0" stroke-opacity="0.75"/>
+<line x1="22" y1="38" x2="1178" y2="38" stroke="#F0FFF0" stroke-opacity="0.55"/>
+<circle cx="42" cy="20" r="4" fill="#F0FFF0"/><circle cx="57" cy="20" r="4" fill="#F0FFF0" opacity="0.45"/><circle cx="72" cy="20" r="4" fill="#F0FFF0" opacity="0.25"/>
+<text x="93" y="25" class="tiny">sayem@github:~ / profile.signal</text>
+<g><text x="42" y="64" class="ascii">++#*-:*%######**#%%%##%%###=.::::+##+*###%##%%@%%%%%%%###%@@%%#%###%</text><text x="42" y="76" class="ascii">@@%*::-=-=--::. ---:-----=***--##***%%@@@@@#+++++++#*=--:=@@%##%####</text><text x="42" y="88" class="ascii">--=-:.....              .+***++*=+#*#***##*-.: ..:...:=*#%%@%%#%###*</text><text x="42" y="100" class="ascii">               .      ..          . .  .     .   .   :+++=*@%##%#%#*</text><text x="42" y="112" class="ascii">.... .  :.            .-+###*+++####*=:       .           :@%#%%#@%%</text><text x="42" y="124" class="ascii">.:..: =#%%#+-:+=-. ::+#@@@@@@@@@@@@@@@@#=--: .  ..  .  .  :%@%#%#@%%</text><text x="42" y="136" class="ascii">+---==%@@%@@@@@@=:=%%@@@@@@@@@@@@@@@@@@@@@#::..:---::.....:%@*##%#%%</text><text x="42" y="148" class="ascii">-::::--=+=*=-=-+=+%%@@@@@@@@@@@@@@@@@@@@@@#*+: . .  ..  .-+*@###%##@</text><text x="42" y="160" class="ascii"> :. ..          :-%%@@@@@@@@@@@@@@@@@@@@@@@@*-=====+==+===+*@%##%%%@</text><text x="42" y="172" class="ascii">+**++*+++*=*######%#@@##%@@@@@@@@@@@@@@@@@@@%##############*%@%%%%%@</text><text x="42" y="184" class="ascii">################*##*%@****###*#%@@@@@@@@@@%****++++++********@@%##%@</text><text x="42" y="196" class="ascii">#*#*#**#####*##*#####%#****++++***#%@@@@@#*#*****##********#*%@@%#%@</text><text x="42" y="208" class="ascii">################*++*++****++++****##%%###*#######*##*#*#*****#@@%%%%</text><text x="42" y="220" class="ascii">***#******+***+==***%#%@@@@%@@@@@@@@#**#++*+**++***+*+*+++++++%@%@%%</text><text x="42" y="232" class="ascii">=++=++++-=++===++*--#@*#%%%@#@%%###%**%%+****+++===++++=++==**#@%@%%</text><text x="42" y="244" class="ascii">.:::----::++==*#*#::#*=:*%%*=*#######%%#*=-=====---::..---::-=+@@%%%</text><text x="42" y="256" class="ascii">==+=======+*+=+===:=*. .:*@%%%%%%%##%%##*=  .:-===--: :----=-:-#@%%%</text><text x="42" y="268" class="ascii">====++*+++++**+=+==*:.:::.=#@@@@%@@@@%#*=.. .   .::-=-====-===-=@@%%</text><text x="42" y="280" class="ascii">+=-=+*+*+-:+****#*=:.::::-:-+#%%%#*+=--:...... .    .:-=**==-===#@%@</text><text x="42" y="292" class="ascii">++=+++*=.-+***##=..::::----------:::::::.:..  .  . .    -*++++*++#%@</text><text x="42" y="304" class="ascii">*++++*-:+*****#-:::::::::::-::::-::::::::.....    . .... -********@%</text><text x="42" y="316" class="ascii">*****=-+*****#=--:::::::::::::::.::::........ .. . . .... -******+%%</text><text x="42" y="328" class="ascii">****==++****#*:----::::::::::::::..:::......... . .......:.+*****+*@</text><text x="42" y="340" class="ascii">***++++****##=-:=---::-::::::::.::. ..::...........::.::..:-#******#</text><text x="42" y="352" class="ascii">++++++*+***#*--:-=--::::.:::::.:::::..........:::-:-::::..:.+*****##</text><text x="42" y="364" class="ascii">++++*****###---::=--:-:-::::::::::::-::.::...::::--:-:::.::.-*******</text><text x="42" y="376" class="ascii">++*****####*-+-::--=----:::::::::-:.:---:::::.::-=:--:::.::.:*******</text><text x="42" y="388" class="ascii">*****######***:::----:---::::::::::..:-:-::::::::=:=-::.:.::.+******</text><text x="42" y="400" class="ascii">***###%%#####*::::---::--:::::::::::..:-::::::::--=-:::::.:..-******</text><text x="42" y="412" class="ascii">*###%%%%##*##+:::::---::--:.::...:::...:::::::::-==:::.......:+*****</text><text x="42" y="424" class="ascii">##%%%%##*#***=::::::--:.:-::..:...:::....:::::::=+=----===+*+*#*****</text></g>
+<line x1="692" y1="56" x2="692" y2="520" stroke="#F0FFF0" stroke-opacity="0.28"/>
+<text x="735" y="88" class="label">01 / IDENTITY</text>
+<text x="735" y="138" class="name">SAYEM AHMED</text>
+<text x="735" y="178" class="name">SHAYEED</text>
+<text x="735" y="218" class="tag">I BUILD SOFTWARE THAT FEELS OBVIOUS.</text>
+<text x="735" y="254" class="body">Mobile · Full Stack · Automation · UI/UX · AI</text>
+<text x="735" y="300" class="body muted">Designing interfaces. Automating boring things.</text>
+<text x="735" y="327" class="body muted">Chasing stars after dark.</text>
+<rect x="735" y="366" width="412" height="72" rx="8" fill="none" stroke="#F0FFF0" stroke-opacity="0.35"/>
+<text x="758" y="392" class="label">CURRENTLY BUILDING</text>
+<text x="758" y="420" class="body">SoundFlow / privacy-first desktop dictation</text>
+<text x="735" y="476" class="quote">“When I am not coding, you'll find me looking at the stars.”</text>
+<text x="735" y="510" class="tiny">SYLHET · BANGLADESH   //   BUILD · LEARN · EXPLORE · REPEAT</text>
+<style>
+.ascii{font: 10px ui-monospace,SFMono-Regular,Menlo,Consolas,monospace;fill:#F0FFF0;white-space:pre;opacity:.88}
+.tiny{font:12px ui-monospace,SFMono-Regular,Menlo,Consolas,monospace;fill:#9fb0a5;letter-spacing:.8px}
+.label{font:700 14px ui-monospace,SFMono-Regular,Menlo,Consolas,monospace;fill:#F0FFF0;letter-spacing:1.8px}
+.name{font:700 34px ui-monospace,SFMono-Regular,Menlo,Consolas,monospace;fill:#F0FFF0;letter-spacing:2px}
+.tag{font:700 16px ui-monospace,SFMono-Regular,Menlo,Consolas,monospace;fill:#F0FFF0;letter-spacing:1.1px}
+.body{font:15px ui-monospace,SFMono-Regular,Menlo,Consolas,monospace;fill:#F0FFF0}
+.muted{fill:#9fb0a5}.quote{font:italic 14px ui-monospace,SFMono-Regular,Menlo,Consolas,monospace;fill:#9fb0a5}
+</style>
+</svg>

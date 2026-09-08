@@ -1,0 +1,30 @@
+name: refresh-pixel-profile
+
+on:
+  schedule:
+    - cron: "17 0 * * *"
+  workflow_dispatch:
+
+jobs:
+  generate:
+    permissions:
+      contents: write
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+
+    steps:
+      - name: Generate Pixel Profile cards
+        uses: LuciNyan/pixel-profile/action@main
+        with:
+          outputs: |
+            dist/github-stats?username=Sayem-Ahmed-Shayeed&background=%23050807&color=%23F0FFF0&screen_effect=true&dithering=true&include_all_commits=true
+          crt_outputs: |
+            dist/github-stats-crt?username=Sayem-Ahmed-Shayeed&include_all_commits=true
+
+      - name: Publish generated cards to output branch
+        uses: crazy-max/ghaction-github-pages@v3.1.0
+        with:
+          target_branch: output
+          build_dir: dist
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
