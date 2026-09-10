@@ -1,69 +1,123 @@
 <div align="center">
 
-# Sayem Ahmed Shayeed
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://capsule-render.vercel.app/api?type=waving&color=0:142B45,100:274C77&height=230&section=header&text=SAYEM%20AHMED%20SHAYEED&fontSize=34&fontColor=F7F4EC&fontAlignY=38&desc=RESEARCH%20%E2%80%A2%20ENGINEERING%20%E2%80%A2%20USEFUL%20SOFTWARE&descAlignY=60&descSize=14&animation=fadeIn">
+  <source media="(prefers-color-scheme: light)" srcset="https://capsule-render.vercel.app/api?type=waving&color=0:EEF3F7,100:D7E5EF&height=230&section=header&text=SAYEM%20AHMED%20SHAYEED&fontSize=34&fontColor=142B45&fontAlignY=38&desc=RESEARCH%20%E2%80%A2%20ENGINEERING%20%E2%80%A2%20USEFUL%20SOFTWARE&descAlignY=60&descSize=14&animation=fadeIn">
+  <img alt="Sayem Ahmed Shayeed profile header" src="https://capsule-render.vercel.app/api?type=waving&color=0:EEF3F7,100:D7E5EF&height=230&section=header&text=SAYEM%20AHMED%20SHAYEED&fontSize=34&fontColor=142B45&fontAlignY=38&desc=RESEARCH%20%E2%80%A2%20ENGINEERING%20%E2%80%A2%20USEFUL%20SOFTWARE&descAlignY=60&descSize=14&animation=fadeIn">
+</picture>
 
-### Undergraduate Researcher · Flutter Developer · CSE Student
-
-Research assistant at [DeepNetLab](https://deepnetlab.com/team), building practical software and studying machine learning systems for healthcare, agriculture, language, and resilient infrastructure.
-
-[Portfolio](https://github.com/Sayem-Ahmed-Shayeed/sayem-portfolio) · [LinkedIn](https://www.linkedin.com/in/sayemahmedshayeed/) · [Google Scholar](https://scholar.google.com/citations?user=D57iaqwAAAAJ&hl=en) · [Email](mailto:shayeedahmed2@gmail.com)
+<p>
+  <a href="https://github.com/Sayem-Ahmed-Shayeed/sayem-portfolio"><img src="https://img.shields.io/badge/Portfolio-142B45?style=for-the-badge&logo=astro&logoColor=F7F4EC" alt="Portfolio" /></a>
+  <a href="https://www.linkedin.com/in/sayemahmedshayeed/"><img src="https://img.shields.io/badge/LinkedIn-274C77?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" /></a>
+  <a href="https://scholar.google.com/citations?user=D57iaqwAAAAJ&hl=en"><img src="https://img.shields.io/badge/Google%20Scholar-4F709C?style=for-the-badge&logo=googlescholar&logoColor=white" alt="Google Scholar" /></a>
+  <a href="mailto:shayeedahmed2@gmail.com"><img src="https://img.shields.io/badge/Email-6B879F?style=for-the-badge&logo=gmail&logoColor=white" alt="Email" /></a>
+</p>
 
 </div>
 
 <br />
 
-## About me
+> I build practical software and study reliable machine learning systems for healthcare, agriculture, language, and resilient infrastructure.
 
-I am a Computer Science and Engineering student at [Leading University](https://lus.ac.bd/), Sylhet, Bangladesh, with a current CGPA of **3.92 / 4.00** and an expected graduation in **February 2027**.
+## Signal
 
-My work sits at the intersection of machine learning research and useful software. I enjoy taking an idea from a research question to a working prototype, especially when the result can be reliable, explainable, and useful in a real setting.
+| | |
+| --- | --- |
+| **Role** | Undergraduate Research Assistant at [DeepNetLab](https://deepnetlab.com/team) |
+| **Study** | B.Sc. in Computer Science & Engineering at [Leading University](https://lus.ac.bd/) |
+| **Location** | Sylhet, Bangladesh |
+| **Availability** | Open to research opportunities, scholarships, and meaningful collaborations |
 
-- Research assistant at **DeepNetLab** since July 2025
-- Interested in **computer vision, healthcare AI, explainable AI, multimodal AI, NLP, and agriculture AI**
-- Building mobile and desktop products with **Flutter, Python, Qt, and local-first workflows**
-- Based in **Sylhet, Bangladesh**
-- Languages: **Bangla, English, Hindi**
+## What I work on
 
-## Research interests
+- Machine learning and deep learning systems
+- Computer vision and medical imaging
+- Explainable and interpretable AI
+- NLP and mental-health text analysis
+- Agriculture AI and Bangladeshi datasets
+- Flutter mobile products and privacy-first desktop tools
 
-`Machine Learning` · `Deep Learning` · `Computer Vision` · `Healthcare AI` · `Explainable AI` · `Multimodal AI` · `NLP` · `Agriculture AI`
+## Research desk
 
-## Selected publications
+### Reliable Dental Radiograph Diagnosis via Calibrated Hybrid Representation Learning
 
-### BongoFishX
-
-**BongoFishX: A Proposed Dataset and its Evaluation for Bangladeshi Fish Species Detection Using Deep Learning Models and Explainable AI**
-
-Published at the **2026 IEEE 2nd International Conference on Quantum Photonics, Artificial Intelligence & Networking (QPAIN)**. The work studies Bangladeshi fish-species detection with deep learning and explainability techniques.
-
-[Google Scholar](https://scholar.google.com/citations?user=D57iaqwAAAAJ&hl=en)
-
-### Reliable Dental Radiograph Diagnosis
-
-**Reliable Dental Radiograph Diagnosis via Calibrated Hybrid Representation Learning**
-
-Published as a poster at the **6th Muslims in ML (MusIML) Workshop at ICML 2026**. The work combines deep feature extraction with classical machine learning, calibration, and Grad-CAM based interpretability for dental radiograph diagnosis.
+Published as a poster at the **6th Muslims in ML (MusIML) Workshop at ICML 2026**. The work combines deep feature extraction, classical machine learning, calibration, and Grad-CAM interpretability for multi-class dental radiograph diagnosis.
 
 [OpenReview](https://openreview.net/forum?id=Ax5nIzhpt5) · [Google Scholar](https://scholar.google.com/citations?view_op=view_citation&hl=en&user=D57iaqwAAAAJ&citation_for_view=D57iaqwAAAAJ:u-x6o8ySG0sC)
 
-## Dataset
+### BongoFishX
 
-### MentalDistress
+**BongoFishX: A Proposed Dataset and its Evaluation for Bangladeshi Fish Species Detection Using Deep Learning Models and Explainable AI** — published at **IEEE QPAIN 2026**.
 
-**MentalDistress: A multi-class social media text dataset for mental health–related emotion detection**
+[Google Scholar](https://scholar.google.com/citations?user=D57iaqwAAAAJ&hl=en)
 
-A manually curated and annotated English text dataset for multi-class mental-health emotion detection, released as **Version 2** on Mendeley Data with **10,100 samples**.
+### MentalDistress dataset
 
-[Dataset](https://data.mendeley.com/datasets/b42wr437hg/2) · [DOI: 10.17632/b42wr437hg.2](https://doi.org/10.17632/b42wr437hg.2)
+A manually curated and annotated English text dataset for multi-class mental-health emotion detection. **Version 2** is available on Mendeley Data with **10,100 samples**.
 
-## Featured projects
+[Dataset](https://data.mendeley.com/datasets/b42wr437hg/2) · [DOI](https://doi.org/10.17632/b42wr437hg.2)
 
-| Project | What it does | Stack |
-| --- | --- | --- |
-| [SoundFlow](https://github.com/Sayem-Ahmed-Shayeed/SoundFlow) | Privacy-first desktop dictation with local transcription and optional LLM cleanup. | Python · faster-whisper · Qt |
-| [UniNest](https://github.com/Sayem-Ahmed-Shayeed/UniNest) | Academic companion for routines, results, notes, resources, assignments, and campus information. | Flutter · Dart |
-| [Digital Delta](https://github.com/Sayem-Ahmed-Shayeed/hackathon_project) | Offline-first disaster-response and logistics prototype built for HackFusion 2026. | Flutter · Firebase · ONNX |
-| [Investify](https://github.com/Sayem-Ahmed-Shayeed/Investify) | Founder and investor mobile platform inspired by the Shark Tank experience. | Flutter · Dart · Firebase |
+## Things I’m building
+
+<table>
+<tr>
+<td width="50%" valign="top">
+
+### [SoundFlow](https://github.com/Sayem-Ahmed-Shayeed/SoundFlow)
+
+Privacy-first desktop dictation for Linux and Windows. Speech is transcribed locally with faster-whisper, with optional LLM cleanup.
+
+`Python` `Qt` `faster-whisper`
+
+</td>
+<td width="50%" valign="top">
+
+### [UniNest](https://github.com/Sayem-Ahmed-Shayeed/UniNest)
+
+An academic companion for class sessions, routines, results, notes, resources, assignments, and campus information.
+
+`Flutter` `Dart` `Mobile`
+
+</td>
+</tr>
+<tr>
+<td width="50%" valign="top">
+
+### [Digital Delta](https://github.com/Sayem-Ahmed-Shayeed/hackathon_project)
+
+An offline-first disaster-response and logistics prototype built for HackFusion 2026.
+
+`Flutter` `Firebase` `ONNX`
+
+</td>
+<td width="50%" valign="top">
+
+### [Investify](https://github.com/Sayem-Ahmed-Shayeed/Investify)
+
+A founder and investor mobile platform inspired by the Shark Tank experience.
+
+`Flutter` `Dart` `Firebase`
+
+</td>
+</tr>
+</table>
+
+## Technology
+
+<div align="center">
+
+<img src="https://techstack-generator.vercel.app/python-icon.svg" alt="Python" width="42" height="42" />
+<img src="https://techstack-generator.vercel.app/cpp-icon.svg" alt="C++" width="42" height="42" />
+<img src="https://techstack-generator.vercel.app/java-icon.svg" alt="Java" width="42" height="42" />
+<img src="https://techstack-generator.vercel.app/flutter-icon.svg" alt="Flutter" width="42" height="42" />
+<img src="https://techstack-generator.vercel.app/firebase-icon.svg" alt="Firebase" width="42" height="42" />
+<img src="https://techstack-generator.vercel.app/mysql-icon.svg" alt="MySQL" width="42" height="42" />
+
+<br />
+
+`Python` `C` `C++` `Java` `Dart` `Flutter` `Firebase` `Supabase` `MySQL` `Qt` `REST APIs` `ONNX`
+
+</div>
 
 ## Education
 
@@ -72,52 +126,39 @@ A manually curated and annotated English text dataset for multi-class mental-hea
 - **Secondary School Certificate (SSC)** — Pagla Govt. Model High School, Sunamganj · GPA **5.00**
 - **Junior School Certificate (JSC)** — Pagla Govt. Model High School, Sunamganj · GPA **5.00**
 
-## Tools I use
-
-<p>
-  <img src="https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white" alt="Python" />
-  <img src="https://img.shields.io/badge/C-394057?style=flat-square&logo=c&logoColor=white" alt="C" />
-  <img src="https://img.shields.io/badge/C%2B%2B-00599C?style=flat-square&logo=cplusplus&logoColor=white" alt="C++" />
-  <img src="https://img.shields.io/badge/Java-ED8B00?style=flat-square&logo=openjdk&logoColor=white" alt="Java" />
-  <img src="https://img.shields.io/badge/Dart-0175C2?style=flat-square&logo=dart&logoColor=white" alt="Dart" />
-  <img src="https://img.shields.io/badge/Flutter-02569B?style=flat-square&logo=flutter&logoColor=white" alt="Flutter" />
-  <img src="https://img.shields.io/badge/Firebase-FFCA28?style=flat-square&logo=firebase&logoColor=111827" alt="Firebase" />
-  <img src="https://img.shields.io/badge/Supabase-3ECF8E?style=flat-square&logo=supabase&logoColor=111827" alt="Supabase" />
-  <img src="https://img.shields.io/badge/MySQL-4479A1?style=flat-square&logo=mysql&logoColor=white" alt="MySQL" />
-  <img src="https://img.shields.io/badge/Qt-41CD52?style=flat-square&logo=qt&logoColor=white" alt="Qt" />
-</p>
-
-I also work with object-oriented programming, data structures, algorithms, REST APIs, notification systems, mobile application development, and local-first application design.
-
 ## Competitive programming
 
-[Codeforces](https://codeforces.com/profile/op_vimdhayak) · [LeetCode](https://leetcode.com/u/euphori_A/)
+<a href="https://codeforces.com/profile/op_vimdhayak">Codeforces</a> · <a href="https://leetcode.com/u/euphori_A/">LeetCode</a>
 
-## Achievements
+## GitHub telemetry
 
-- Participant, **HackFusion 2026** — IEEE Computer Society LU SB Chapter
+<div align="center">
+
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://pixel-profile.vercel.app/api/github-stats?username=Sayem-Ahmed-Shayeed&theme=blue_chill&screen_effect=true&hide=avatar">
+  <source media="(prefers-color-scheme: light)" srcset="https://pixel-profile.vercel.app/api/github-stats?username=Sayem-Ahmed-Shayeed&theme=summer&pixelate_avatar=false">
+  <img src="https://pixel-profile.vercel.app/api/github-stats?username=Sayem-Ahmed-Shayeed&theme=summer&pixelate_avatar=false" alt="GitHub statistics" width="720" />
+</picture>
+
+</div>
+
+## Milestones
+
+- **HackFusion 2026** participant — IEEE Computer Society LU SB Chapter
 - **10th place**, BAIUST Junior IUPC 2024 — Individual standings
 - **Coder of the Batch** recognition
 - **75% merit-based tuition waiver** at Leading University
 
-## Currently
+## A small note
 
-I am working on research projects at DeepNetLab, improving my software projects, and exploring reliable machine learning systems that can move from experiments into everyday use.
+I like software that feels calm to use: clear interfaces, useful defaults, local-first behavior where it matters, and research that can be explained to the people who depend on it.
 
-If you are working on a meaningful research problem, building practical tools, or interested in collaboration, feel free to reach out.
+If you are working on a thoughtful research problem or a useful product, [send me an email](mailto:shayeedahmed2@gmail.com).
 
 <div align="center">
-
-### Let’s build something useful.
-
-[Say hello](mailto:shayeedahmed2@gmail.com)
-
-</div>
 
 <br />
 
-<div align="center">
-
-<sub>Designed to stay readable, useful, and easy to maintain.</sub>
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:274C77,100:142B45&height=100&section=footer" alt="Footer" width="100%" />
 
 </div>
