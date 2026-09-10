@@ -1,10 +1,6 @@
 <div align="center">
 
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://capsule-render.vercel.app/api?type=waving&color=0:142B45,100:274C77&height=230&section=header&text=SAYEM%20AHMED%20SHAYEED&fontSize=34&fontColor=F7F4EC&fontAlignY=38&desc=RESEARCH%20%E2%80%A2%20ENGINEERING%20%E2%80%A2%20USEFUL%20SOFTWARE&descAlignY=60&descSize=14&animation=fadeIn">
-  <source media="(prefers-color-scheme: light)" srcset="https://capsule-render.vercel.app/api?type=waving&color=0:EEF3F7,100:D7E5EF&height=230&section=header&text=SAYEM%20AHMED%20SHAYEED&fontSize=34&fontColor=142B45&fontAlignY=38&desc=RESEARCH%20%E2%80%A2%20ENGINEERING%20%E2%80%A2%20USEFUL%20SOFTWARE&descAlignY=60&descSize=14&animation=fadeIn">
-  <img alt="Sayem Ahmed Shayeed profile header" src="https://capsule-render.vercel.app/api?type=waving&color=0:EEF3F7,100:D7E5EF&height=230&section=header&text=SAYEM%20AHMED%20SHAYEED&fontSize=34&fontColor=142B45&fontAlignY=38&desc=RESEARCH%20%E2%80%A2%20ENGINEERING%20%E2%80%A2%20USEFUL%20SOFTWARE&descAlignY=60&descSize=14&animation=fadeIn">
-</picture>
+<img src="assets/github-hero.svg" alt="Build Reliable Systems. Study Useful Intelligence. Sayem Ahmed Shayeed's GitHub profile hero" width="100%" />
 
 <p>
   <a href="https://github.com/Sayem-Ahmed-Shayeed/sayem-portfolio"><img src="https://img.shields.io/badge/Portfolio-142B45?style=for-the-badge&logo=astro&logoColor=F7F4EC" alt="Portfolio" /></a>
