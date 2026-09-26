@@ -1,19 +1,21 @@
 <!-- Theme-aware animated terminal hero -->
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Sayem-Ahmed-Shayeed/Sayem-Ahmed-Shayeed/463ec01/readmefile/dark.svg">
-  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/Sayem-Ahmed-Shayeed/Sayem-Ahmed-Shayeed/463ec01/readmefile/light.svg">
-  <img alt="Animated terminal profile banner for Sayem Ahmed Shayeed" src="https://raw.githubusercontent.com/Sayem-Ahmed-Shayeed/Sayem-Ahmed-Shayeed/463ec01/readmefile/dark.svg" width="100%">
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Sayem-Ahmed-Shayeed/Sayem-Ahmed-Shayeed/d80ad32/readmefile/dark.svg">
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/Sayem-Ahmed-Shayeed/Sayem-Ahmed-Shayeed/d80ad32/readmefile/light.svg">
+  <img alt="Animated terminal profile banner for Sayem Ahmed Shayeed" src="https://raw.githubusercontent.com/Sayem-Ahmed-Shayeed/Sayem-Ahmed-Shayeed/d80ad32/readmefile/dark.svg" width="100%">
 </picture>
 
 <p align="center"><em>Climbed the mountain and crossed the sea, i killed the man i used to be now nothing seems impossible at all. I'll set huge goals and conquer them all.</em></p>
 
-<p align="center">
-  <a href="https://github.com/Sayem-Ahmed-Shayeed">GitHub</a> ·
-  <a href="https://www.linkedin.com/in/sayemahmedshayeed/">LinkedIn</a> ·
-  <a href="https://scholar.google.com/citations?user=D57iaqwAAAAJ&amp;hl=en">Google Scholar</a> ·
-  <a href="https://sayem-ahmed-shayeed.vercel.app">Portfolio</a> ·
-  <a href="mailto:shayeedahmed2@gmail.com">Email</a>
-</p>
+<div align="center">
+
+  <a href="https://github.com/Sayem-Ahmed-Shayeed" aria-label="GitHub"><img src="https://raw.githubusercontent.com/Sayem-Ahmed-Shayeed/Sayem-Ahmed-Shayeed/20ef06f/readmefile/social-github.svg" alt="GitHub" height="44"></a>&nbsp;
+  <a href="https://www.linkedin.com/in/sayemahmedshayeed/" aria-label="LinkedIn"><img src="https://raw.githubusercontent.com/Sayem-Ahmed-Shayeed/Sayem-Ahmed-Shayeed/20ef06f/readmefile/social-linkedin.svg" alt="LinkedIn" height="44"></a>&nbsp;
+  <a href="https://scholar.google.com/citations?user=D57iaqwAAAAJ&amp;hl=en" aria-label="Google Scholar"><img src="https://raw.githubusercontent.com/Sayem-Ahmed-Shayeed/Sayem-Ahmed-Shayeed/20ef06f/readmefile/social-scholar.svg" alt="Google Scholar" height="44"></a>&nbsp;
+  <a href="https://sayem-ahmed-shayeed.vercel.app" aria-label="Portfolio"><img src="https://raw.githubusercontent.com/Sayem-Ahmed-Shayeed/Sayem-Ahmed-Shayeed/20ef06f/readmefile/social-portfolio.svg" alt="Portfolio" height="44"></a>&nbsp;
+  <a href="mailto:shayeedahmed2@gmail.com" aria-label="Email"><img src="https://raw.githubusercontent.com/Sayem-Ahmed-Shayeed/Sayem-Ahmed-Shayeed/20ef06f/readmefile/social-email.svg" alt="Email" height="44"></a>&nbsp;
+
+</div>
 
 ## 🚀 Featured Projects
 
