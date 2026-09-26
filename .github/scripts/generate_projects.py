@@ -123,7 +123,7 @@ def donut_segments(languages, cx, cy, r, begin):
             f'<animate attributeName="stroke-dasharray" from="0 {C:.2f}" to="{seg:.2f} {C - seg:.2f}" '
             f'dur="0.6s" begin="{t:.2f}s" fill="freeze" calcMode="spline" keyTimes="0;1" keySplines="0.3 0 0.2 1"/>'
             f'</circle>')
-        legend.append((lang, frac, col))
+        legend.append((lang, col))
         offset += seg
         t += 0.18
     return "".join(out), legend
@@ -207,15 +207,13 @@ def card(p, x, y, idx):
         segs, legend = donut_segments(langs, cx, cy, r, b + 0.3)
         a(f'<circle cx="{cx}" cy="{cy}" r="{r}" fill="none" stroke="{RING_BG}" stroke-width="9"/>')
         a(segs)
-        top = legend[0]
-        a(f'<text x="{cx}" y="{cy+4}" text-anchor="middle" font-size="11" font-weight="700" fill="{TEXT}">{top[1]*100:.0f}%</text>')
         # legend: fixed left column, dot then left-aligned text; ends well before the ring
         dot_x = cx - r - 92
         text_x = dot_x + 9
         ly = cy - 22
-        for lang, frac, col in legend[:3]:
+        for lang, col in legend[:3]:
             a(f'<circle cx="{dot_x}" cy="{ly}" r="3.5" fill="{col}"/>')
-            a(f'<text x="{text_x}" y="{ly+4}" font-size="10" fill="{MUTED}">{esc(lang)} {frac*100:.0f}%</text>')
+            a(f'<text x="{text_x}" y="{ly+4}" font-size="10" fill="{MUTED}">{esc(lang)}</text>')
             ly += 18
     a('</g>')
     a('</a>')
