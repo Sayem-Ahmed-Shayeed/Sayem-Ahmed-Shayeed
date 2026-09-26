@@ -5,6 +5,8 @@
   <img alt="Animated terminal profile banner for Sayem Ahmed Shayeed" src="https://raw.githubusercontent.com/Sayem-Ahmed-Shayeed/Sayem-Ahmed-Shayeed/4b2f647/readmefile/dark.svg" width="100%">
 </picture>
 
+<p align="center"><em>Climbed the mountain and crossed the sea, i killed the man i used to be now nothing seems impossible at all. I'll set huge goals and conquer them all.</em></p>
+
 <p align="center">
   <a href="https://github.com/Sayem-Ahmed-Shayeed">GitHub</a> ·
   <a href="https://www.linkedin.com/in/sayemahmedshayeed/">LinkedIn</a> ·
