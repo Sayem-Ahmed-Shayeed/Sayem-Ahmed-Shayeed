@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="168" height="44" viewBox="0 0 168 44" role="img" aria-label="Portfolio">
+  <defs>
+    <filter id="glow" x="-50%" y="-100%" width="200%" height="300%"><feGaussianBlur stdDeviation="2.2" result="blur"/><feMerge><feMergeNode in="blur"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
+    <linearGradient id="beam"><stop offset="0" stop-color="#35d4a0" stop-opacity="0"/><stop offset=".5" stop-color="#35d4a0"/><stop offset="1" stop-color="#35d4a0" stop-opacity="0"/></linearGradient>
+  </defs>
+  <rect x="1" y="1" width="166" height="42" rx="2" fill="#0a101f"/>
+  <g fill="#35d4a0">
+    <circle cx="18" cy="22" r="9" fill="none" stroke="#35d4a0" stroke-width="2.2"/><path d="M9 22h18M18 13c-3 3-4 6-4 9s1 6 4 9m0-18c3 3 4 6 4 9s-1 6-4 9" fill="none" stroke="#35d4a0" stroke-width="1.5"/>  </g>
+  <text x="44" y="27" fill="#f8fafc" font-family="Arial, sans-serif" font-size="12" font-weight="700" letter-spacing="2.1">PORTFOLIO</text>
+  <path d="M1 42H167" stroke="url(#beam)" stroke-width="2" stroke-dasharray="34 134" filter="url(#glow)">
+    <animate attributeName="stroke-dashoffset" values="168;0;-168" dur="3.2s" repeatCount="indefinite"/>
+  </path>
+</svg>

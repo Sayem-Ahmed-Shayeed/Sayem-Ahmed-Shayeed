@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="168" height="44" viewBox="0 0 168 44" role="img" aria-label="Email">
+  <defs>
+    <filter id="glow" x="-50%" y="-100%" width="200%" height="300%"><feGaussianBlur stdDeviation="2.2" result="blur"/><feMerge><feMergeNode in="blur"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
+    <linearGradient id="beam"><stop offset="0" stop-color="#46c99b" stop-opacity="0"/><stop offset=".5" stop-color="#46c99b"/><stop offset="1" stop-color="#46c99b" stop-opacity="0"/></linearGradient>
+  </defs>
+  <rect x="1" y="1" width="166" height="42" rx="2" fill="#0a101f"/>
+  <g fill="#46c99b">
+    <rect x="9" y="16" width="18" height="13" rx="1.5"/><path d="m10 17 8 6 8-6" fill="none" stroke="#0a101f" stroke-width="1.6"/>  </g>
+  <text x="44" y="27" fill="#f8fafc" font-family="Arial, sans-serif" font-size="12" font-weight="700" letter-spacing="2.1">EMAIL</text>
+  <path d="M1 42H167" stroke="url(#beam)" stroke-width="2" stroke-dasharray="34 134" filter="url(#glow)">
+    <animate attributeName="stroke-dashoffset" values="168;0;-168" dur="3.2s" repeatCount="indefinite"/>
+  </path>
+</svg>

@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="168" height="44" viewBox="0 0 168 44" role="img" aria-label="LinkedIn">
+  <defs>
+    <filter id="glow" x="-50%" y="-100%" width="200%" height="300%"><feGaussianBlur stdDeviation="2.2" result="blur"/><feMerge><feMergeNode in="blur"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
+    <linearGradient id="beam"><stop offset="0" stop-color="#70a5ff" stop-opacity="0"/><stop offset=".5" stop-color="#70a5ff"/><stop offset="1" stop-color="#70a5ff" stop-opacity="0"/></linearGradient>
+  </defs>
+  <rect x="1" y="1" width="166" height="42" rx="2" fill="#0a101f"/>
+  <g fill="#70a5ff">
+    <path d="M10 15h4v13h-4zm2-6.5a2.3 2.3 0 1 1 0 4.6 2.3 2.3 0 0 1 0-4.6M16 15h3.8v1.8h.1c.5-.95 1.8-2 3.7-2 4 0 4.7 2.6 4.7 6V28h-4v-6.4c0-1.5 0-3.4-2.1-3.4s-2.4 1.6-2.4 3.3V28h-4z" transform="translate(-2 -1) scale(.85)"/>  </g>
+  <text x="44" y="27" fill="#f8fafc" font-family="Arial, sans-serif" font-size="12" font-weight="700" letter-spacing="2.1">LINKEDIN</text>
+  <path d="M1 42H167" stroke="url(#beam)" stroke-width="2" stroke-dasharray="34 134" filter="url(#glow)">
+    <animate attributeName="stroke-dashoffset" values="168;0;-168" dur="3.2s" repeatCount="indefinite"/>
+  </path>
+</svg>
