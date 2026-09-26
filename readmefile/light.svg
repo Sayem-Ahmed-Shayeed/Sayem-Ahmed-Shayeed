@@ -149,56 +149,7 @@
     <clipPath id="profilePhotoClip"><circle cx="220" cy="320" r="135" /></clipPath>
   </defs>
 
-  <!-- CANVAS ROOT -->
-  <rect width="1180" height="610" rx="24" fill="#FFFFFF" />
-
-  <!-- Floating background glowing orbs -->
-  <circle cx="200" cy="150" r="250" fill="url(#glowTeal)" opacity="0.4">
-    <animate attributeName="cx" values="200; 300; 150; 200" dur="15s" repeatCount="indefinite" />
-    <animate attributeName="cy" values="150; 250; 200; 150" dur="15s" repeatCount="indefinite" />
-  </circle>
-  <circle cx="900" cy="450" r="300" fill="url(#glowEmerald)" opacity="0.35">
-    <animate attributeName="cx" values="900; 800; 950; 900" dur="18s" repeatCount="indefinite" />
-    <animate attributeName="cy" values="450; 350; 500; 450" dur="18s" repeatCount="indefinite" />
-  </circle>
-  <circle cx="590" cy="305" r="200" fill="url(#glowMint)" opacity="0.3">
-    <animate attributeName="cx" values="590; 650; 530; 590" dur="12s" repeatCount="indefinite" />
-    <animate attributeName="cy" values="305; 250; 350; 305" dur="12s" repeatCount="indefinite" />
-  </circle>
-
-  <!-- Floating particles -->
-  <g fill="#059669" opacity="0.4">
-    <circle cx="100" cy="200" r="1.5">
-      <animate attributeName="cy" values="200; 150; 200" dur="6s" repeatCount="indefinite" />
-      <animate attributeName="opacity" values="0.2; 0.8; 0.2" dur="6s" repeatCount="indefinite" />
-    </circle>
-    <circle cx="380" cy="120" r="1">
-      <animate attributeName="cy" values="120; 80; 120" dur="5s" repeatCount="indefinite" />
-      <animate attributeName="opacity" values="0.1; 0.7; 0.1" dur="5s" repeatCount="indefinite" />
-    </circle>
-    <circle cx="450" cy="500" r="2" fill="#10B981">
-      <animate attributeName="cy" values="500; 450; 500" dur="7s" repeatCount="indefinite" />
-      <animate attributeName="opacity" values="0.3; 0.9; 0.3" dur="7s" repeatCount="indefinite" />
-    </circle>
-    <circle cx="850" cy="100" r="1.5">
-      <animate attributeName="cy" values="100; 160; 100" dur="8s" repeatCount="indefinite" />
-      <animate attributeName="opacity" values="0.2; 0.8; 0.2" dur="8s" repeatCount="indefinite" />
-    </circle>
-    <circle cx="1100" cy="300" r="2" fill="#0F766E">
-      <animate attributeName="cy" values="300; 250; 300" dur="6s" repeatCount="indefinite" />
-      <animate attributeName="opacity" values="0.1; 0.7; 0.1" dur="6s" repeatCount="indefinite" />
-    </circle>
-    <circle cx="700" cy="520" r="1">
-      <animate attributeName="cy" values="520; 480; 520" dur="4s" repeatCount="indefinite" />
-      <animate attributeName="opacity" values="0.2; 0.8; 0.2" dur="4s" repeatCount="indefinite" />
-    </circle>
-  </g>
-
-  <!-- Noise Overlay -->
-  <rect width="1180" height="580" filter="url(#noise)" opacity="0.5" pointer-events="none" rx="24" />
-  
-  <!-- Outer card border -->
-  <rect width="1180" height="610" rx="24" fill="none" stroke="url(#cardBorderGradient)" stroke-width="2" />
+  <!-- Transparent canvas: the terminal panels keep their own backgrounds. -->
 
   <!-- LEFT SIDE: ASCII TERMINAL PANEL (38% split: 360 width) -->
   <g>
