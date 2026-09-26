@@ -1,8 +1,8 @@
 <!-- Theme-aware animated terminal hero -->
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Sayem-Ahmed-Shayeed/Sayem-Ahmed-Shayeed/a7b6f66/readmefile/dark.svg">
-  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/Sayem-Ahmed-Shayeed/Sayem-Ahmed-Shayeed/a7b6f66/readmefile/light.svg">
-  <img alt="Animated terminal profile banner for Sayem Ahmed Shayeed" src="https://raw.githubusercontent.com/Sayem-Ahmed-Shayeed/Sayem-Ahmed-Shayeed/a7b6f66/readmefile/dark.svg" width="100%">
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Sayem-Ahmed-Shayeed/Sayem-Ahmed-Shayeed/1a1ed4d/readmefile/dark.svg">
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/Sayem-Ahmed-Shayeed/Sayem-Ahmed-Shayeed/1a1ed4d/readmefile/light.svg">
+  <img alt="Animated terminal profile banner for Sayem Ahmed Shayeed" src="https://raw.githubusercontent.com/Sayem-Ahmed-Shayeed/Sayem-Ahmed-Shayeed/1a1ed4d/readmefile/dark.svg" width="100%">
 </picture>
 
 <p align="center">
