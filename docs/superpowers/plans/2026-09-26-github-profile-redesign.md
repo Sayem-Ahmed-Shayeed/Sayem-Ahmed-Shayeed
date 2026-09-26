@@ -1,6 +1,6 @@
 # GitHub Profile README Redesign Implementation Plan
 
-> **For agentic workers:** REQUIRED SUB-SKILL: Use superpowers:subagent-driven-development (recommended) or superpowers:executing-plans to implement this plan task-by-task. Steps use checkbox (`- [ ]`) syntax for tracking.
+> **For agentic workers:** REQUIRED SUB-SKILL: Use superpowers:subagent-driven-development (recommended) or superpowers:executing-plans to implement this plan task-by-task. Steps use checkbox (`- [x]`) syntax for tracking.
 
 **Goal:** Assemble Sayem Ahmed Shayeed's profile README from the cloned reference sections while preserving their existing markup and behavior and personalizing their content.
 
@@ -43,14 +43,15 @@
 - Produces the opening hero image at `readmefile/dark.svg` and `readmefile/light.svg` for the README `<picture>` element.
 - The README uses `Sayem-Ahmed-Shayeed` as the GitHub username and the exact user-provided YouTube video URL.
 
-- [ ] Copy `cloning/readmefile/dark.svg` to `profile/readmefile/dark.svg` and `cloning/readmefile/light.svg` to `profile/readmefile/light.svg` without changing their SVG structure or animation elements.
-- [ ] Replace the template identity, location, portfolio, email, social links, focus line, and skill pills in both SVGs with Sayem's portfolio details: Sayem Ahmed Shayeed; Research Assistant at DeepNetLab; Flutter Developer and CSE Student; Sylhet, Bangladesh; `https://sayem-ahmed-shayeed.vercel.app`; `shayeedahmed2@gmail.com`; GitHub, LinkedIn, and Google Scholar; machine learning, computer vision, explainable AI, multimodal AI, Flutter, and Dart.
-- [ ] In `README.md`, copy the hero `<picture>` pattern from `cloning/README.md` and point it at the local dark/light SVGs.
-- [ ] Add a Projects section placeholder that loads `https://raw.githubusercontent.com/Sayem-Ahmed-Shayeed/Sayem-Ahmed-Shayeed/projects/projects.svg`; Task 2 supplies this generated asset.
-- [ ] Add a YouTube song card using the cloned DenverCoder1 video-card anchor/image pattern, replacing its video ID and title with metadata for `MoLD4vb0zvQ`; link the card to `https://www.youtube.com/watch?v=MoLD4vb0zvQ`.
-- [ ] Add the Skill Icons image pattern from `cloning/awesome-github-readme-profile/README.md`, using Sayem's portfolio skills: Python, C, C++, Java, Dart, Flutter, Supabase, Firebase, MySQL, and Android Studio.
-- [ ] Add the DenverCoder1 streak-card URL pattern with username `Sayem-Ahmed-Shayeed`, preserving the reference theme and query parameters.
-- [ ] Keep the final README order as hero, projects, song, skills and tools, streak and stats, contribution snake. Task 3 supplies the snake image.
+- [x] Copy `cloning/readmefile/dark.svg` to `profile/readmefile/dark.svg` and `cloning/readmefile/light.svg` to `profile/readmefile/light.svg`, preserving the panel layout and animation elements.
+- [x] Embed Sayem's public avatar as a data URI in both SVGs and replace only the template portrait art content with it; keep each SVG self-contained for GitHub's image renderer.
+- [x] Replace the template identity, location, portfolio, email, social links, focus line, and skill pills in both SVGs with Sayem's portfolio details: Sayem Ahmed Shayeed; Research Assistant at DeepNetLab; Flutter Developer and CSE Student; Sylhet, Bangladesh; `https://sayem-ahmed-shayeed.vercel.app`; `shayeedahmed2@gmail.com`; GitHub, LinkedIn, and Google Scholar; machine learning, computer vision, explainable AI, multimodal AI, Flutter, and Dart.
+- [x] In `README.md`, copy the hero `<picture>` pattern from `cloning/README.md` and point it at the local dark/light SVGs.
+- [x] Add a Projects section `<picture>` with the cloned theme-aware pattern, loading `projects.svg` in dark mode and `projects-light.svg` in light mode from the repository's `projects` branch; Task 2 supplies these generated assets.
+- [x] Add a YouTube song card using the cloned DenverCoder1 video-card anchor/image pattern, replacing its video ID and title with metadata for `MoLD4vb0zvQ`; link the card to `https://www.youtube.com/watch?v=MoLD4vb0zvQ`.
+- [x] Add the Skill Icons image pattern from `cloning/awesome-github-readme-profile/README.md`, using Sayem's portfolio skills: Python, C, C++, Java, Dart, Flutter, Supabase, Firebase, MySQL, and Android Studio.
+- [x] Add the DenverCoder1 streak-card URL pattern with username `Sayem-Ahmed-Shayeed`, preserving the reference theme and query parameters.
+- [x] Keep the final README order as hero, projects, song, skills and tools, streak and stats, contribution snake. Task 3 supplies the snake image.
 
 ### Task 2: Add the animated project-list generator
 
@@ -62,18 +63,18 @@
 - Modify: `README.md`
 
 **Interfaces:**
-- The workflow reads `projects.json`, enriches the repo entries with live GitHub data, and publishes `projects.svg` to branch `projects`.
-- The README project image URL is `https://raw.githubusercontent.com/Sayem-Ahmed-Shayeed/Sayem-Ahmed-Shayeed/projects/projects.svg`.
+- The workflow reads `projects.json`, enriches the repo entries with live GitHub data, and publishes `projects.svg` and `projects-light.svg` to branch `projects`.
+- The README uses `projects.svg` for dark mode and `projects-light.svg` for light mode from `https://raw.githubusercontent.com/Sayem-Ahmed-Shayeed/Sayem-Ahmed-Shayeed/projects/`.
 
-- [ ] Copy `cloning/arifhaxn/.github/scripts/fetch_data.py`, `cloning/arifhaxn/.github/scripts/generate_projects.py`, and `cloning/arifhaxn/.github/workflows/projects.yml` to the matching paths in `profile/` without changing their code.
-- [ ] Create `projects.json` in the schema from `cloning/arifhaxn/projects.json` with these four entries, their exact repository URLs, concise portfolio summaries, and tags; omit `logo` so the unchanged generator draws its monogram fallback:
+- [x] Copy `cloning/arifhaxn/.github/scripts/fetch_data.py`, `cloning/arifhaxn/.github/scripts/generate_projects.py`, and `cloning/arifhaxn/.github/workflows/projects.yml` to the matching paths in `profile/` without changing their code.
+- [x] Create `projects.json` in the schema from `cloning/arifhaxn/projects.json` with these four entries, their exact repository URLs, concise portfolio summaries, and tags; omit `logo` so the unchanged generator draws its monogram fallback:
   - `SoundFlow`, repo `Sayem-Ahmed-Shayeed/SoundFlow`, description `Local desktop dictation with faster-whisper and optional AI transcript polish.`, tags `Python`, `Faster Whisper`, `Gemini`.
   - `UniNest`, repo `Sayem-Ahmed-Shayeed/UniNest`, description `Student companion for routines, results, resources, notes, and campus information.`, tags `Flutter`, `Dart`.
   - `Digital Delta`, repo `Sayem-Ahmed-Shayeed/hackathon_project`, description `Offline-first disaster response with peer communication, route intelligence, and logistics.`, tags `C++`, `Dart`, `Offline-first`.
   - `Investify`, repo `Sayem-Ahmed-Shayeed/Investify`, description `Mobile pitch and discovery platform connecting founders with investors.`, tags `Flutter`, `Dart`, `OneSignal`.
-- [ ] Preserve the generator's animated card entrance, pulsing activity dot, logo float, cursor, and language-donut animations.
-- [ ] Confirm the copied workflow publishes `projects.svg` to the `projects` branch and uses the built-in `GITHUB_TOKEN`; keep its trigger and behavior unchanged.
-- [ ] Keep the Task 1 README project image pointed at that published SVG.
+- [x] Preserve the generator's animated card entrance, pulsing activity dot, logo float, cursor, and language-donut animations.
+- [x] Confirm the copied workflow publishes `projects.svg` and `projects-light.svg` to the `projects` branch and uses the built-in `GITHUB_TOKEN`; keep its trigger and behavior unchanged.
+- [x] Keep the Task 1 README theme sources pointed at those published SVGs.
 
 ### Task 3: Add the animated contribution snake
 
@@ -85,9 +86,9 @@
 - The workflow publishes `snake-dark.svg` and `snake-light.svg` to branch `output`.
 - The README loads those exact names from `https://raw.githubusercontent.com/Sayem-Ahmed-Shayeed/Sayem-Ahmed-Shayeed/output/`.
 
-- [ ] Copy `cloning/Douglas-Strey/.github/workflows/cobrinha.yml` to `profile/.github/workflows/snake.yml` without changing the workflow logic or output palette.
-- [ ] Add the Douglas-Strey `<picture>` pattern at the end of `README.md`, changing only the image host path and accessible alt text to identify Sayem's contribution graph.
-- [ ] Ensure the dark source points to `snake-dark.svg` and the fallback light source points to `snake-light.svg` on the `output` branch.
+- [x] Copy `cloning/Douglas-Strey/.github/workflows/cobrinha.yml` to `profile/.github/workflows/snake.yml` without changing the workflow logic or output palette.
+- [x] Add the Douglas-Strey `<picture>` pattern at the end of `README.md`, changing only the image host path and accessible alt text to identify Sayem's contribution graph.
+- [x] Ensure the dark source points to `snake-dark.svg` and the fallback light source points to `snake-light.svg` on the `output` branch.
 
 ### Task 4: Audit profile-specific content and workflow references
 
@@ -104,7 +105,7 @@
 **Interfaces:**
 - All README image URLs, project repository links, and workflow output filenames agree.
 
-- [ ] Search the profile files for the template usernames `Mahyudeen`, `DenverCoder1`, `arifhaxn`, `Douglas-Strey`, and `zyh3699`; remove any occurrences from rendered profile content and personalized links.
-- [ ] Search the profile files for the song video ID `MoLD4vb0zvQ` and verify the card link and thumbnail use that ID.
-- [ ] Verify the README section order and that project/snake image URLs match their workflow output branch and filenames.
-- [ ] Review the diff for accidental changes to copied workflow or generator logic; do not run tests or workflow jobs unless requested.
+- [x] Search the profile files for the template usernames `Mahyudeen`, `DenverCoder1`, `arifhaxn`, `Douglas-Strey`, and `zyh3699`; remove any occurrences from rendered profile content and personalized links.
+- [x] Search the profile files for the song video ID `MoLD4vb0zvQ` and verify the card link and thumbnail use that ID.
+- [x] Verify the README section order and that dark/light project and snake image URLs match their workflow output branches and filenames.
+- [x] Review the diff for accidental changes to copied workflow or generator logic; do not run tests or workflow jobs unless requested.

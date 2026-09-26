@@ -1,0 +1,26 @@
+[
+  {
+    "name": "SoundFlow",
+    "repo": "Sayem-Ahmed-Shayeed/SoundFlow",
+    "description": "Local desktop dictation with faster-whisper and optional AI transcript polish",
+    "tags": ["Python", "Faster Whisper", "Gemini"]
+  },
+  {
+    "name": "UniNest",
+    "repo": "Sayem-Ahmed-Shayeed/UniNest",
+    "description": "Student companion for routines, results, resources, notes, and campus information",
+    "tags": ["Flutter", "Dart"]
+  },
+  {
+    "name": "Digital Delta",
+    "repo": "Sayem-Ahmed-Shayeed/hackathon_project",
+    "description": "Offline-first disaster response with peer communication, route intelligence, and logistics",
+    "tags": ["C++", "Dart", "Offline-first"]
+  },
+  {
+    "name": "Investify",
+    "repo": "Sayem-Ahmed-Shayeed/Investify",
+    "description": "Mobile pitch and discovery platform connecting founders with investors",
+    "tags": ["Flutter", "Dart", "OneSignal"]
+  }
+]
